@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Hospital Website</title>
+        <link rel="stylesheet" href="/css/style.min.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <a href="h3" class="nav__logo"><h3>FORLIFE</h3></a>
+
+                <ul id="nav__items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#specialists">Especialistas</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li>
+                        <a href="#appointment" class="btn">Marcar Horario</a>
+                    </li>
+                </ul>
+
+                <button id="open__nav-btn"><i class="bx bx-menu"></i></button>
+                <button id="close__nav-btn"><i class="bx bx-x"></i></button>
+            </div>
+        </nav>
+
+        <header>
+            <div class="container">
+                <div class="header__content">
+                    <h1>Soluções Completas de Saúde para Todos</h1>
+                    <p>
+                        Descubra um Mundo de Informações, Dicas e Recursos para
+                        Cuidar da Sua Saúde e Bem-Estar Diariamente. Bem-Vindo
+                        ao Nosso Portal de Saúde, Seu Parceiro na Jornada Rumo a
+                        uma Vida Mais Saudável e Feliz.
+                    </p>
+                    <a href="#appointment" class="btn">Marcar Consulta</a>
+                </div>
+                <div class="header__image">
+                    <img src="./assets/images/header.svg" alt="Header img" />
+                </div>
+            </div>
+        </header>
+
+        <section id="services">
+            <h2>Nossos serviços</h2>
+            <p>
+                Comprometidos com sua saúde e bem-estar, oferecemos serviços de
+                excelência para cuidar de você
+            </p>
+            <div class="container">
+                <article>
+                    <i class="bx bx-book-content"></i>
+                    <div>
+                        <h4>Marcação online</h4>
+                        <small
+                            >Agende sua consulta ou exame de forma simples e
+                            conveniente com nossa marcação online de serviços de
+                            saúde e segurança.</small
+                        >
+                    </div>
+                </article>
+                <article>
+                    <i class="bx bx-trophy"></i>
+                    <div>
+                        <h4>Doutores Qualificados</h4>
+                        <small
+                            >Nossos médicos altamente qualificados estão prontos
+                            para cuidar da sua saúde com atenção e expertise
+                            para sua vida e de seu familiar.</small
+                        >
+                    </div>
+                </article>
+                <article>
+                    <i class="bx bx-headphone"></i>
+                    <div>
+                        <h4>Atendimento Privado</h4>
+                        <small
+                            >Nosso atendimento telefônico está disponível para
+                            atender às suas necessidades de saúde e qualquer
+                            situação com eficiência e dedicação.</small
+                        >
+                    </div>
+                </article>
+                <article>
+                    <i class="bx bx-donate-heart"></i>
+                    <div>
+                        <h4>Bem Cuidado</h4>
+                        <small
+                            >Oferecemos cuidados de saúde de alta qualidade,
+                            assegurando que você seja bem cuidado por nossa
+                            equipe de profissionais dedicados.</small
+                        >
+                    </div>
+                </article>
+                <article>
+                    <i class="bx bx-first-aid"></i>
+                    <div>
+                        <h4>Preciso de Emergência</h4>
+                        <small
+                            >Se você precisar de atendimento de emergência,
+                            nossa equipe está pronta para agir com rapidez e
+                            eficácia para garantir seu cuidado imediato.</small
+                        >
+                    </div>
+                </article>
+                <article>
+                    <i class="bx bx-infinite"></i>
+                    <div>
+                        <h4>Atendimento 24 horas</h4>
+                        <small
+                            >Oferecemos atendimento 24 horas para atender às
+                            suas necessidades de saúde a qualquer momento, dia
+                            ou noite, com nossa equipe dedicada e
+                            qualificada.</small
+                        >
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="specialists">
+            <h2>Temos os Melhores Especialistas</h2>
+            <p>
+                Nossos melhores especialistas são líderes em suas áreas,
+                garantindo que você receba o mais alto nível de atendimento e
+                expertise em sua jornada de bem-estar.
+            </p>
+            <div class="container">
+                <article>
+                    <div class="specialist__image">
+                        <img
+                            src="/assets/images/specialist1.jpg"
+                            alt="Especialista1"
+                        />
+                    </div>
+                    <div class="specialist__details">
+                        <h4>Dr. Kwadjo Nkansa</h4>
+                        <small>Cirurgião Especializado</small>
+                    </div>
+                    <div class="specialist__socials">
+                        <a href="https://linkedin.com" target="_blank"
+                            ><i class="bx bxl-linkedin"></i
+                        ></a>
+
+                        <a href="https://twitter.com" target="_blank"
+                            ><i class="bx bxl-twitter"></i
+                        ></a>
+
+                        <a href="https://facebook.com" target="_blank"
+                            ><i class='bx bxl-facebook'></i></i
+                        ></a>
+                        <a href="https://instagram.com" target="_blank"
+                            ><i class="bx bxl-instagram"></i
+                        ></a>
+                    </div>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=+048985032739"
+                        class="specialist__whatsapp" target="_blank"
+                        ><i class="bx bxl-whatsapp"></i
+                    ></a>
+                </article>
+                <article>
+                    <div class="specialist__image">
+                        <img
+                            src="/assets/images/specialist2.jpg"
+                            alt="Especialista2"
+                        />
+                    </div>
+                    <div class="specialist__details">
+                        <h4>Dr. Fella Makafui</h4>
+                        <small>Especializada em Estética</small>
+                    </div>
+                    <div class="specialist__socials">
+                        <a href="https://linkedin.com" target="_blank"
+                            ><i class="bx bxl-linkedin"></i
+                        ></a>
+                        <a href="https://twitter.com" target="_blank"
+                            ><i class="bx bxl-twitter"></i
+                        ></a>
+                        <a href="https://facebook.com" target="_blank"
+                            ><i class='bx bxl-facebook'></i></i
+                        ></a>
+                        <a href="https://instagram.com" target="_blank"
+                            ><i class="bx bxl-instagram"></i
+                        ></a>
+                    </div>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=+048985032739"
+                        class="specialist__whatsapp" target="_blank"
+                        ><i class="bx bxl-whatsapp"></i
+                    ></a>
+                </article>
+                <article>
+                    <div class="specialist__image">
+                        <img
+                            src="/assets/images/specialist3.jpg"
+                            alt="Especialista3"
+                        />
+                    </div>
+                    <div class="specialist__details">
+                        <h4>Dr. Liza Apedo</h4>
+                        <small>Especializada em Ortopédia</small>
+                    </div>
+                    <div class="specialist__socials">
+                        <a href="https://linkedin.com" target="_blank"
+                            ><i class="bx bxl-linkedin"></i
+                        ></a>
+                        <a href="https://twitter.com" target="_blank"
+                            ><i class="bx bxl-twitter"></i
+                        ></a>
+                        <a href="https://facebook.com" target="_blank"
+                            ><i class='bx bxl-facebook'></i></i
+                        ></a>
+                        <a href="https://instagram.com" target="_blank"
+                            ><i class="bx bxl-instagram"></i
+                        ></a>
+                    </div>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=+048985032739"
+                        class="specialist__whatsapp" target="_blank"
+                        ><i class="bx bxl-whatsapp"></i
+                    ></a>
+                </article>
+                <article>
+                    <div class="specialist__image">
+                        <img
+                            src="/assets/images/specialist4.jpg"
+                            alt="Especialista4"
+                        />
+                    </div>
+                    <div class="specialist__details">
+                        <h4>Dr. Abigail Brown</h4>
+                        <small>Especializada em Cardiologia</small>
+                    </div>
+                    <div class="specialist__socials">
+                        <a href="https://linkedin.com" target="_blank"
+                            ><i class="bx bxl-linkedin"></i
+                        ></a>
+                        <a href="https://twitter.com" target="_blank"
+                            ><i class="bx bxl-twitter"></i
+                        ></a>
+                        <a href="https://facebook.com" target="_blank"
+                            ><i class='bx bxl-facebook'></i></i
+                        ></a>
+                        <a href="https://instagram.com" target="_blank"
+                            ><i class="bx bxl-instagram"></i
+                        ></a>
+                    </div>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=+048985032739"
+                        class="specialist__whatsapp" target="_blank"
+                        ><i class="bx bxl-whatsapp"></i
+                    ></a>
+                </article>
+            </div>
+        </section>
+
+        <section id="testimonials" class="swiper mySwiper">
+            <h2>O que nossos Pacientes Dizem</h2>
+            <p>Descubra as experiências e histórias de sucesso compartilhadas por nossos pacientes.</p>
+            <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                        <p>Excelente atendimento e profissionais altamente competentes. Esta clínica é uma referência em cuidados de saúde.</p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="/assets/images/avatar1.jpg" alt="avatar1">
+                        </div>
+                            <div class="patient__details">
+                                <h5>Nana Ama McBrown</h5>
+                                <small>Patient</small>
+                            </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                        <p>Minha jornada de tratamento nesta clínica foi marcada por cuidado, eficiência e resultados positivos. Recomendo a todos!</p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="/assets/images/avatar2.jpg" alt="avatar2">
+                        </div>
+                            <div class="patient__details">
+                                <h5>John Carter</h5>
+                                <small>Patient</small>
+                            </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                        <p>Nunca me senti tão bem cuidado como me sinto aqui. Os médicos são incríveis, e o tratamento é de alta qualidade.</p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="/assets/images/avatar3.jpg" alt="avatar3">
+                        </div>
+                            <div class="patient__details">
+                                <h5>James lin</h5>
+                                <small>Patient</small>
+                            </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                        <p>Obrigado à equipe desta clínica por tornar minha jornada de recuperação tão tranquila e eficaz. Vocês são os melhores!</p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="/assets/images/avatar4.jpg" alt="avatar4">
+                        </div>
+                            <div class="patient__details">
+                                <h5>Jwen wen</h5>
+                                <small>Patient</small>
+                            </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                        <p>Fiquei impressionado com o profissionalismo e a atenção aos detalhes nesta clínica. Sem dúvida, uma escolha inteligente para cuidados de saúde.</p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="/assets/images/avatar5.jpg" alt="avatar5">
+                        </div>
+                            <div class="patient__details">
+                                <h5>Carli Jonson</h5>
+                                <small>Patient</small>
+                            </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                        <p>Meus agradecimentos a todos na clínica por cuidarem de mim com tanto carinho e competência. Recuperei minha saúde com a ajuda de vocês. Altamente recomendado!</p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="/assets/images/avatar6.jpg" alt="avatar6">
+                        </div>
+                            <div class="patient__details">
+                                <h5>Ana Monte</h5>
+                                <small>Patient</small>
+                            </div>
+                    </div>
+                </article>
+                <article class="swiper-slide">
+                        <p>Esta clínica superou todas as minhas expectativas. Médicos incríveis e uma equipe que realmente se importa com o bem-estar dos pacientes. Estou muito grato.</p>
+                    <div class="patient">
+                        <div class="avatar">
+                            <img src="/assets/images/avatar7.jpg" alt="avatar7">
+                        </div>
+                            <div class="patient__details">
+                                <h5>Amber Quisa</h5>
+                                <small>Patient</small>
+                            </div>
+                    </div>
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+        <section id="appointment">
+            <div class="container">
+                <div class="info">
+                    <h2>Marque uma Consulta</h2>
+                    <p>Marque sua consulta hoje mesmo e dê o primeiro passo para uma vida mais saudável e feliz.</p>
+               
+                    <article>
+                        <div class="info__icon">
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div>
+                            <h4>Medicos Experiêntes</h4>
+                            <small>Nossa equipe de doutores experientes, com décadas de conhecimento clínico e compromisso inabalável com o bem-estar, está pronta para oferecer a você cuidados médicos excepcionais e orientação especializada.</small>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="info__icon">
+                            <i class='bx bxl-xing'></i>
+                        </div>
+                        <div>
+                            <h4>Tecnologia Avançada</h4>
+                            <small>Nossa clínica é líder em medicina moderna, impulsionada pela tecnologia avançada. Estamos comprometidos em oferecer o mais alto padrão de atendimento, apoiado pela inovação e precisão diagnóstica, para promover sua saúde e bem-estar.</small>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="info__icon">
+                            <i class='bx bx-first-aid'></i>
+                        </div>
+                        <div>
+                            <h4>Cuidado de Emergência</h4>
+                            <small>Oferecemos cuidado de emergência de primeira linha, 24 horas por dia, 7 dias por semana, para garantir que você tenha acesso imediato a atendimento médico vital em momentos críticos.</small>
+                        </div>
+                    </article>
+                </div>
+                <form action="https://formspree.io/f/xvojayyg" method="POST">
+                    <div class="form__group">
+                        <label for="name">Nome</label>
+                        <input type="text" placeholder="Escreva seu Nome" name="Nome do Paciente" id="name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="phone">Número de Telefone</label>
+                        <input type="number" placeholder="Digite seu Número" name="Número do Paciente" id="phone" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="date">Data</label>
+                        <input type="date" placeholder="Escolha uma Data" name="Data" id="date" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="department">Selecione o Departamento</label>
+                        <select name="Departamento" id="Department" required>
+                            <option value="Primeiro Departamento">Primeiro Departamento</option>
+                            <option value="Segundo Departamento">Segundo Departamento</option>
+                            <option value="Terceiro Departamento">Terceiro Departamento</option>
+                            <option value="Quarto Departamento">Quarto Departamento</option>
+                        </select>
+                    </div>
+                    <div class="form__group">
+                        <label for="doctor">Selecione o Médico</label>
+                        <select name="Medico" id="doctor" required>
+                            <option value="Dr. Kwadjo Nkansa">Dr. Kwadjo Nkansa</option>
+                            <option value="Dr. Fella Makafui">Dr. Fella Makafui</option>
+                            <option value="Dr. Liza Apedo">Dr. Liza Apedo</option>
+                            <option value="Dr. Abigail Brown">Dr. Abigail Brown</option>
+                            <option value="Dr. Jehn Brown">Dr. Jehn Brown</option>
+                        </select>
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Adicione uma Mensagem</label>
+                        <textarea name="Added Message" id="message" rows="6" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit Request" class="btn-primary">
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <article>
+                    <a href="#" class="footer__logo"><h3>FORLIFE</h3></a>
+                    <p>Estamos localizados na Rua das Flores, número 123, Bairro da Baixada - Rio de Janeiro </p>
+                    <div>
+                        <i class='bx bx-phone' ></i>
+                        <small>+8549339333</small>
+                    </div>
+                    <div>
+                        <i class='bx bx-mail-send' ></i>
+                        <small>support@forlife.com</small>
+                    </div>
+                </article>
+                <article>
+                    <h3>Suporte</h3>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Política de Cookies</a>
+                    <a href="#">Política de Compras</a>
+                    <a href="#">Termos e Condições</a>
+                    <a href="#">Carreira</a>
+                </article>
+                <article>
+                    <h3>Menu</h3>
+                    <a href="#">Home</a>
+                    <a href="#services">Serviços</a>
+                    <a href="#specialists">Especialistas</a>
+                    <a href="#testimonials">Depoimentos</a>
+                    <a href="#appointment" class="btn-primary">Marcar Consulta</a>
+                </article>
+                <article>
+                    <h3>Nós Contate</h3>
+                    <p>Aperte</p>
+                    <p>FAQs</p>
+                    <div class="footer__socials">
+                        <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="copyright">
+                <small $copy;> Direitos autorais FORLIFE. Todos os direitos reservados</small>
+            </div>
+        </footer>
+
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+.swiper {
+    .swiper-wrapper {
+        .swiper-slide {
+            margin-bottom: 4rem;
+            @include gradientBackground;
+            text-align: center;
+            padding: 1.2rem 3rem;
+            border-radius: 1rem;
+            cursor: default;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 14rem;
+            width: 25%;
+
+            p {
+                margin-bottom: 1.5rem;
+            }
+
+            .patient {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                .avatar {
+                    width: 2.5rem;
+                    aspect-ratio: 1/1;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+            }
+
+            .swiper-slide:nth-child(2n) {
+                width: 60%;
+            }
+
+            .swiper-slide:nth-child(3n) {
+                width: 40%;
+            }
+        }
+    }
+
+    .swiper-pagination {
+        margin-top: 4rem;
+    }
+
+    .swiper-pagination-bullet {
+        background: $primary-color;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .swiper {
+        .swiper-wrapper {
+            .swiper-slide {
+                padding: 1.5rem;
+            }
+        }
+    }
+}
